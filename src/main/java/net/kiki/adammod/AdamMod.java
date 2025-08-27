@@ -2,6 +2,7 @@ package net.kiki.adammod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.kiki.adammod.block.ModBlocks;
 import net.kiki.adammod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class AdamMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 	}
 }

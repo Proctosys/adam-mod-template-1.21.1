@@ -1,3 +1,6 @@
 {
-  "item.adammod.enderite": "Enderite"
+  "item.adammod.enderite": "Enderite",
+  "item.adammod.enderite_fragment": "Enderite Fragment",
+  "item.adammod.enderite_sword": "Enderite Sword",
+  "block.adammod.enderite_ore": "Enderite Ore"
 }
